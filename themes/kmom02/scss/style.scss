@@ -1,0 +1,83 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Parisienne&family=Quicksand&display=swap');
+
+head .top header {
+    max-width: 66.66%;
+}
+
+body {
+    background-color: $background-color;
+    max-width: 66.66%;
+    padding: 0.1em 0.2em;
+    border-radius: 0.3em;
+    margin: auto;
+}
+
+.logo {
+    display: inline-flex;
+}
+
+* {
+    font-family: 'Quicksand';
+    color: $font-color;
+}
+
+.top {
+    max-width: 100%;
+}
+
+.logo {
+    flex-direction: column;
+    max-width: 67%;
+}
+
+.nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nav li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-style: solid;
+    background-color: $lightlogo-color;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: $darklogo-color;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 4rem;
+    padding-left: 1rem;
+}
+
+h1 {
+    font-family: 'Parisienne';
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Merriweather';
+}
