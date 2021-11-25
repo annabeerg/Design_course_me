@@ -1,7 +1,17 @@
 $font-color: #000;
 $font-alternative-color: #fff;
-$accent-color: #ee6c4d;
-$background-color: rgb(255, 255, 255);
-$background-alternative-color: #e0fbfc;
-$darklogo-color: #744846;
-$lightlogo-color: #c4b0af;
+$accent-color: #338f85;
+$background-color: #fff3e2ea;
+$background-alternative-color: #8f421e;
+$darklogo-color: #338f85;
+$darklogo-color1: #8f7b2cb6;
+$darklogo-color2: #8f7b2c96;
+$darklogo-color3: #8f7b2c65;
+$darklogo-color4: #8f7b2c46;
+$lightlogo-color: #8f652525;
+$border-nav: $background-color;
+$nav-color: rgb(0, 0, 0);
+
+$main-font-size: 1em;
+$main-line-height: 1.4;
+$main-font-size: $main-font-size * $main-line-height;

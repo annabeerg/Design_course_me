@@ -1,0 +1,24 @@
+head .top header {
+    max-width: 66.66%;
+}
+
+body {
+    background-color: $background-color;
+    max-width: 66.66%;
+    padding: 0.1em 0.2em;
+    border-radius: 0.3em;
+    margin: auto;
+}
+
+.logo {
+    display: inline-flex;
+}
+
+.top {
+    max-width: 100%;
+}
+
+.logo {
+    flex-direction: column;
+    max-width: 67%;
+}
